@@ -2,7 +2,7 @@
 //const math = require('mathjs');
 
 let study_nbr=0;
-const version = "version01";
+const version = "ood/headgear/version01";
 //const models = ["ResNet101","ResNet152","GoogLeNet","Inception_V3","efficientnet_v2_s"]; //remove
 //const lowest_mean_class_probability = 16; //Remove
 const number_of_probabilities_to_show = 10;  //Remove
