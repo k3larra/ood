@@ -293,8 +293,8 @@ function set_header_images(structure){
   var e = document.getElementById('org_image');
   var img = document.createElement("img");
   // OBS img.src="/"+structure[study_nbr]["image_path"];
-  //img.src="/"+structure["image_path"];
-  img.src=structure["image_path"];
+  img.src="/ood/"+structure["image_path"];
+  //img.src=structure["image_path"];
   var cap = document.createElement("figcaption");
   cap.textContent ="Width:"+img.width+" Height:"+img.height
   cap.classList.add("text-center")
@@ -306,7 +306,7 @@ function set_header_images(structure){
   e = document.getElementById('trans_image');
   img = document.createElement("img");
   // OBS img.src="/"+structure[study_nbr]["image_path_transformed"];
-  //img.src="/"+structure["image_path_transformed"];
+  img.src="ood/"+structure["image_path_transformed"];
   img.src=structure["image_path_transformed"];
   cap = document.createElement("figcaption");
   cap.textContent ="Width:"+img.width+" Height:"+img.height //ToDo: Why is reload needed
