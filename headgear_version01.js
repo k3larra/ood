@@ -57,14 +57,14 @@ class Mean_and_Dispersion{
     }
     get_mean_saliency_map_path(classnumber){
       if (this.value.hasOwnProperty("mean_image_path_candidate_"+classnumber)){
-        return "/"+this.value["mean_image_path_candidate_"+classnumber];
+        return this.value["mean_image_path_candidate_"+classnumber];
       }else{
         return"";
       }
     }
     get_dispersion_saliency_map_path(classnumber){
       if (this.value.hasOwnProperty("diff_image_path_candidate_"+classnumber)){
-        return "/"+this.value["diff_image_path_candidate_"+classnumber];
+        return this.value["diff_image_path_candidate_"+classnumber];
       }else{
         return"";
       }
@@ -293,8 +293,7 @@ function set_header_images(structure){
   var e = document.getElementById('org_image');
   var img = document.createElement("img");
   // OBS img.src="/"+structure[study_nbr]["image_path"];
-  img.src="/ood/"+structure["image_path"];
-  //img.src=structure["image_path"];
+  img.src=structure["image_path"];
   var cap = document.createElement("figcaption");
   cap.textContent ="Width:"+img.width+" Height:"+img.height
   cap.classList.add("text-center")
@@ -306,7 +305,6 @@ function set_header_images(structure){
   e = document.getElementById('trans_image');
   img = document.createElement("img");
   // OBS img.src="/"+structure[study_nbr]["image_path_transformed"];
-  img.src="ood/"+structure["image_path_transformed"];
   img.src=structure["image_path_transformed"];
   cap = document.createElement("figcaption");
   cap.textContent ="Width:"+img.width+" Height:"+img.height //ToDo: Why is reload needed
@@ -492,7 +490,8 @@ function add_saliency_maps_for_class(element,classnumber){
       element.appendChild(row_maps);
       }
       //Here only add image so no placeholder is needed.....!!!!!!
-      images[column].src = "/"+map_path;
+      //images[column].src = "/"+map_path;
+      images[column].src = map_path;
       caps[column].innerHTML = "<i>Model: </i>"+model_names[i]+
       " <br/><i>Class probability:</i> "+ (class_probabilities[i]*100).toFixed(1)+"%"+
       "<br/> <i>Mean value:</i> "+(mean_values[i]).toFixed(2)+
