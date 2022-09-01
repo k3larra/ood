@@ -1,5 +1,5 @@
 ## Class probabilities reported on ImangeNet-1K for the models used in the study.
-@1 indicates the probability the true label is predicted with highest probability, @5 that the true label is among the top 5. For this study we use weights that gives the best outcome. The test set used is not identical in relation to the predictions, insted it depends on the testset used the year the models competeed in the ILSVRC challenge [more info]{https://www.image-net.org/challenges/LSVRC/}. The classes in ImageNet-1K for this challenge, using single crops, are the same over the years. We use the same image transformation for all models in this study [here]{https:}.
+@1 indicates the probability the true label is predicted with highest probability, @5 that the true label is among the top 5. For this study we use weights that gives the best outcome. The test set used is not identical in relation to the class probalilities, insted it depends on the testset used the year the models competeed in the ILSVRC challenge [more info]{https://www.image-net.org/challenges/LSVRC/}. The classes in ImageNet-1K for this challenge, using single crops, are the same over the years. We use the same image transformation for all models in this study [here]{https:}.
 
 | Model           | Weights      | @1     | @5     | Params |
 |-----------------|--------------|--------|--------|--------|
