@@ -19,17 +19,15 @@ All percentage over 20
 
 
 
-
-
-|Image                                 |Adress                                                                   |
-|--------------------------------------|-------------------------------------------------------------------------|
-|![d](testset/animals_thumbnails/1.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=0) |
-|![d](testset/animals_thumbnails/2.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=1) |
-|![d](testset/animals_thumbnails/3.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=2) |
-|![d](testset/animals_thumbnails/4.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=3) |
-|![d](testset/animals_thumbnails/5.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=4) |
-|![d](testset/animals_thumbnails/6.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=5) |
-|![d](testset/animals_thumbnails/7.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=6) |
-|![d](testset/animals_thumbnails/8.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=7) |
-|![d](testset/animals_thumbnails/9.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=8) |
-|![d](testset/animals_thumbnails/10.jpg)|[page](https://k3larra.github.io/ood/animals_version01.html?study_nbr=9)|
+|                                                                                                          |
+|----------------------------------------------------------------------------------------------------------|
+|[![](testset/animals_thumbnails/1.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=0) |
+|[![](testset/animals_thumbnails/10.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=1)|
+|[![](testset/animals_thumbnails/2.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=2) |
+|[![](testset/animals_thumbnails/3.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=3) |
+|[![](testset/animals_thumbnails/4.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=4) |
+|[![](testset/animals_thumbnails/5.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=5) |
+|[![](testset/animals_thumbnails/6.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=6) |
+|[![](testset/animals_thumbnails/7.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=7) |
+|[![](testset/animals_thumbnails/8.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=8) |
+|[![](testset/animals_thumbnails/9.jpg)](https://k3larra.github.io/ood/animals_version01.html?study_nbr=9) |
