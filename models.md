@@ -3,7 +3,9 @@
 
 | Model           | Weights      | @1     | @5     | Params |
 |-----------------|--------------|--------|--------|--------|
+|ResNet50         |IMAGENET1K_V1 | 76.1   | 92.9   | 25.6M  |
 |ResNet50         |IMAGENET1K_V2 | 80.9   | 95.4   | 25.6M  |
+|ResNet101        |IMAGENET1K_V2 | 81.9   | 95.8   | 25.6M  |
 |ResNet152        |IMAGENET1K_V2 | 82.3   | 94.0   | 60.2M  |
 |GoogLeNet        |IMAGENET1K_V1 | 70.0   | 90.0   | 6.6M   |
 |Inception_V3     |IMAGENET1K_V1 | 77.3   | 93.4   | 27.2M  |
