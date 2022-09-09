@@ -1,0 +1,1 @@
+{"description": "Eight models used specificly around the ImageNet-1K class sorrel", "image tranformation": "image transformation: resize246 centercrop 224 using imagenet transforms"}
