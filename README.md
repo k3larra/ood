@@ -46,12 +46,6 @@ torch.hub._validate_not_a_forked_repo=lambda a,b,c: True #Skum grej från https:
 model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
 
 #transformations
-transform = transforms.Compose([
-transforms.Resize(224),
-transforms.CenterCrop(224),
-transforms.ToTensor()
-])
-
 preprocess = transforms.Compose([   #Used for predictions
    transforms.Resize(224),
    transforms.CenterCrop(224),
