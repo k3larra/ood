@@ -22,7 +22,7 @@ Website accompanying the paper with the above title:
 
 Link to code for the predictions:
 
-**Study 2:** This study focused on a more narrow domain headgear and the seven directly related classes in ImageNet-1K: sombrero', cowboy hat, 'bathing cap', 'crash helmet, 'bonnet', 'shower cap' and 'football helmet. In this study we did not use any concept theory and instead relied on the participants intuitive understanding of headgear related concepts. This closer adhere prototype theories and concepts as central features of the phenomena in question~\cite{Murphy2018}.
+**Study 2:** This study focused on a more narrow domain headgear and the seven directly related classes in ImageNet-1K: sombrero', cowboy hat, 'bathing cap', 'crash helmet, 'bonnet', 'shower cap' and 'football helmet. In this study we did not use any concept theory and instead relied on the participants intuitive understanding of headgear related concepts. This closer adhere prototype theories and concepts as central features of the phenomena in question.
 
 [Information for headgear study](images/headgear/0.PNG)
 
@@ -46,12 +46,6 @@ torch.hub._validate_not_a_forked_repo=lambda a,b,c: True #Skum grej från https:
 model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
 
 #transformations
-transform = transforms.Compose([
-transforms.Resize(224),
-transforms.CenterCrop(224),
-transforms.ToTensor()
-])
-
 preprocess = transforms.Compose([   #Used for predictions
    transforms.Resize(224),
    transforms.CenterCrop(224),
