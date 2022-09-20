@@ -7,7 +7,7 @@ Website accompanying the paper with the above title:
 
 **Study 1:** This study investigated whether it is useful, for a human, to categorise visible sub-concepts in images picturing animals as necessary, sufficient and, additionally, the usefulness of the notion of spurious correlations concerning concepts not deemed as necessary or sufficient. By using these notions we for this study hypotesize that they can make it easier to identify o.o.d exemplars. Concepts discussed here were then sub-concepts to animal classifications, as, for example, 'watering hole', 'beak' or 'feather'.
 
-[Intotext for animal study](images/animals/0.PNG)
+[Information for animal study](images/animals/0.PNG)
 
 [![](testset/animalsthumb/4.jpg)](images/animals/1.PNG)
 [![](testset/animalsthumb/3.jpg)](images/animals/2.PNG)
@@ -24,7 +24,7 @@ Link to code for the predictions:
 
 **Study 2:** This study focused on a more narrow domain headgear and the seven directly related classes in ImageNet-1K: sombrero', cowboy hat, 'bathing cap', 'crash helmet, 'bonnet', 'shower cap' and 'football helmet. In this study we did not use any concept theory and instead relied on the participants intuitive understanding of headgear related concepts. This closer adhere prototype theories and concepts as central features of the phenomena in question~\cite{Murphy2018}.
 
-[Intotext for headgear study](images/headgear/0.PNG)
+[Information for headgear study](images/headgear/0.PNG)
 
 [![](testset/headthumb/1.jpg)](images/headgear/1.PNG)
 [![](testset/headthumb/2.jpg)](images/headgear/2.PNG)
