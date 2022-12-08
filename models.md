@@ -1,7 +1,7 @@
 ## Class probabilities reported on ImangeNet-1K for the models used in the study.
-@1 indicates the probability the true label is predicted with highest probability, @5 that the true label is among the top 5. For this study we use weights that gives the best outcome. The test set used is not identical in relation to the class probalilities, insted it depends on the testset used the year the models competeed in the ILSVRC challenge [more info](https://www.image-net.org/challenges/LSVRC/). The classes in ImageNet-1K for this challenge, using single crops, are the same over the years. We use the same image transformation for all models in this study [here](https:). Information collected from  [PyTorch information](https://pytorch.org/vision/stable/models.html) page for pretrained models. These pretrained models are are used throughout this study. 
+acc@1 indicates the probability the true label is predicted with highest probability, acc@5 that the true label is among the top 5. For this study we use weights that gives the best outcome. The test set used is not identical in relation to the class probabilities, instead it depends on the test-set used the year the models competed in the ILSVRC challenge [more info](https://www.image-net.org/challenges/LSVRC/). The classes in ImageNet-1K for this challenge, using single crops, are the same over the years. We use the same image transformation for all models in this study [here](https:). Information collected from  [PyTorch information](https://pytorch.org/vision/stable/models.html) page for pretrained models. These pretrained models are are used throughout this study.
 
-| Model           | Weights      | @1     | @5     | Params |
+| Model           | Weights      | acc@1     | acc@5     | Params |
 |-----------------|--------------|--------|--------|--------|
 |ResNet50         |IMAGENET1K_V1 | 76.1   | 92.9   | 25.6M  |
 |ResNet50         |IMAGENET1K_V2 | 80.9   | 95.4   | 25.6M  |
@@ -14,7 +14,3 @@
 |Swin_T_Weights   |IMAGENET1K_V1 | 81.4   | 95.8   | 28.3M  |
 |ConvNeXt_Tiny    |IMAGENET1K_V1 | 79.9   | 94.5   | 28.6M  |
 |                 |              |avg 80.0|avg 94.6|        |
-
-
-
-
